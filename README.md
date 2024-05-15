@@ -1,10 +1,10 @@
-◼️ Esta es una app para publicar fechas de bandas por zona, por barrio o por estilo.
-La idea es que también se pueda subir contenido de bandas y venta de entradas.
+◼️ This is an app to publish band dates by area, neighborhood, or style.
+The idea is that you can also upload band content and ticket sales.
 
 
-### Tareas a corto plazo:
-- Determinar si la app va a ser server side rendering o single page app?
-- Inicializar el proyecto con next o create react app
-- Establecer mínimo de funcionalidades
-- La app va a tener back end? cuál?
+### Short-term tasks:
+- Determine if the app will be server side rendering or single page app?
+- Initialize the project with next or create react app
+- Establish minimum functionalities
+- Will the app have a back end? Which one?
 🤘
