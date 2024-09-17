@@ -3,7 +3,7 @@ import './hero-section.css';
 
 export default function HeroSection() {
     return (
-        <section>
+        <section className="hero-section">
             <h1>Buscá cuando toca tu banda favorita</h1>
             <Image
                 src="./yellow-concert.jpg"
