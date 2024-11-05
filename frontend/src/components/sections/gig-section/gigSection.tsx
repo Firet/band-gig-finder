@@ -2,10 +2,15 @@ import GigConcertBoard from "@/components/molecules/Gig-Concert-Board/GigConcert
 
 
 export default function GigSection() {
+
+  const ConcertBoardDates = {
+    yesterday: 'Ayer', today: 'Hoy', tomorrow: 'Mañana'
+  };
   return (
-    <section className="bg-amber-400 mt-[14rem]">
-    <h1>Gig section</h1>
-    <GigConcertBoard />
+    <section className="flex flex-row mt-[14rem]">
+      <GigConcertBoard dateTitle={ConcertBoardDates.yesterday} />
+      <GigConcertBoard dateTitle={ConcertBoardDates.today} />
+      <GigConcertBoard dateTitle={ConcertBoardDates.tomorrow} />
     </ section>
   );
 }
