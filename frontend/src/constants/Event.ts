@@ -1,20 +1,14 @@
-const Event = [
+import Event from '@/interfaces/Event'
+
+const GigEvents: Event[] = [
     {
         title: 'Gigafest',
         body: '',
         user_id: 1,
         status: '',
-        created_at: {
-            gigDayNumber: 1,
-            gigDayName: 'Martes',
-            gigMonth: 'Brumario',
-        },
-        event_date: {
-            gigDayNumber: 18,
-            gigDayName: 'Martes',
-            gigMonth: 'Brumario',
-        },
+        created_at: new Date(),
+        event_date: new Date(),
     }
 ];
 
-export default Event;
+export default GigEvents;
