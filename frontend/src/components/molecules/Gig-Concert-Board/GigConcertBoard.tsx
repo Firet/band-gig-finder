@@ -1,5 +1,15 @@
+'use client'
+
+import { useEffect } from 'react';
 import GigEvents from "@/constants/Event";
+import fetch from '@/utils/fetch';
+
 export default function GigConcertBoard({ dateTitle = 'Hoy' }) {
+
+    useEffect(() => {
+        fetch('');
+    }, []);
+
     const gigEvents = GigEvents;
     return (
         <>
